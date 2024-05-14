@@ -7,7 +7,7 @@
     "install-Server": "cd Server && npm install",
     "start-Server": "cd Server && node index.js",
     "install-Client": "cd Client && npm install",
-    "build-Client": "cd Client && npm run build",
+    "build": "cd Client && npm run build",
     "start-Client": "cd Client && npm run start"
 
   },
