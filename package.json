@@ -1,0 +1,17 @@
+{
+  "name": "postazon_mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-Server": "cd Server && npm install",
+    "start-Server": "cd Server && node index.js",
+    "install-Client": "cd Client && npm install",
+    "build-Client": "cd Client && npm run build",
+    "start-Client": "cd Client && npm run start"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
