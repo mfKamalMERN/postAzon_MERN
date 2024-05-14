@@ -5,6 +5,8 @@ import { ConnectDB } from './ConnectDB/ConnectDB.js'
 import { postRoute } from './Routes/PostRoute.js'
 import { userRoute } from './Routes/UserRoute.js'
 import cookieParser from 'cookie-parser'
+// import { configDotenv } from 'dotenv'
+// ("dotenv").config();
 
 
 const app = express()
