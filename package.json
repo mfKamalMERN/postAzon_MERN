@@ -8,7 +8,6 @@
     "start-Server": "cd Server && node index.js",
     "install-Client": "cd Client && cd postazon && npm install",
     "build-Client": "cd Client && cd postazon && npm run build",
-    "build": "react-scripts build",
     "start-Client": "cd Client && cd postazon && npm run start"
   },
   "keywords": [],
