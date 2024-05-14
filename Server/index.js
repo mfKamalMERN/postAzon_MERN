@@ -12,7 +12,7 @@ import cookieParser from 'cookie-parser'
 const app = express()
 
 app.use(cors({
-    origin: ["http://localhost:3000", "http://localhost:3000/home/:id", "http://localhost:3000/editpostimage/", "http://localhost:3000/createpost/:userid", "http://localhost:3000/viewprofiles/:fArray", "http://localhost:3000/viewprofile/:userid", "http://localhost:3000/home/:id/:viewuserpost", "http://localhost:3000/allusers"],
+    origin: ["http://localhost:3000", "http://localhost:3000/home/:id", "http://localhost:3000/editpostimage/", "http://localhost:3000/createpost/:userid", "http://localhost:3000/viewprofiles/:fArray", "http://localhost:3000/viewprofile/:userid", "http://localhost:3000/home/:id/:viewuserpost", "http://localhost:3000/allusers", "https://postazon-mern-123.onrender.com"],
 
     methods: ["GET", "POST", "PUT", "DELETE"],
 
