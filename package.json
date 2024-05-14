@@ -6,8 +6,7 @@
   "scripts": {
     "install-Server": "cd Server && npm install",
     "start-Server": "cd Server && node index.js",
-    "install-Client": "cd Client && cd postazon && npm install",
-    "build-Client": "cd Client && cd postazon && npm run build",
+    "install-Client": "cd Client && cd postazon && npm install && npm run build",
     "start-Client": "cd Client && cd postazon && npm run start"
   },
   "keywords": [],
